@@ -40,6 +40,12 @@ nav ul{
     border: solid;
     border-color: #cccccc;
     border-radius: 5px;
+    
+    scroll-behavior: smooth;
+    
+    transition-property: background-color;
+    transition-property: color;
+    transition-duration: 0.3s;
 }
 
 .nav-btn:hover{
@@ -94,10 +100,14 @@ nav img{
 .bloc-title a{
     text-decoration: none;
     color: #e5e5e5;
+    
+    transition-property: font-size;
+    transition-duration: 0.3s;
 }
 
 .bloc-title a:hover{
     color: white;
+    font-size: 45px;
 }
 
 .parralax{
@@ -155,3 +165,4 @@ table td{
     padding-left: 40px;
     padding-right: 40px;
 }
+
