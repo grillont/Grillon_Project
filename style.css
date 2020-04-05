@@ -5,10 +5,10 @@ body{
 
 .container {
     margin-top: 90px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 nav{
@@ -19,6 +19,9 @@ nav{
     position: fixed;
     z-index: 4;
     top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 5px black;
 }
 
 nav ul{
@@ -34,7 +37,6 @@ nav ul{
     font-family: 'verdana';
     font-size: 18px;
     color: grey;
-    
     border: solid;
     border-color: #cccccc;
     border-radius: 5px;
@@ -147,4 +149,9 @@ table td{
     right: 0;
     z-index: -1;
     box-shadow: 0px 3px 5px black;
+}
+
+.footer p{
+    padding-left: 40px;
+    padding-right: 40px;
 }
